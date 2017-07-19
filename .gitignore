@@ -1,0 +1,9 @@
+/EmployeeBenefits/.vs/EmployeeBenefits/v15/*.suo
+/EmployeeBenefits/Domain/bin/Debug
+/EmployeeBenefits/Domain/obj/Debug
+/EmployeeBenefits/Persistence/bin/Debug
+/EmployeeBenefits/Persistence/obj/Debug
+/EmployeeBenefits/Tests.Unit/bin/Debug
+/EmployeeBenefits/Tests.Unit/obj/Debug
+/EmployeeBenefits/packages/Iesi.Collections.4.0.0.4000
+/EmployeeBenefits/packages/NHibernate.4.1.1.4000/ConfigurationTemplates
