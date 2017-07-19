@@ -56,7 +56,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Mappings\Xml\Employee.hbm.xml" />
+    <Content Include="Mappings\Xml\Employee.hbm.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -43,6 +43,7 @@
     <Compile Include="Address.cs" />
     <Compile Include="Benefit.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="EntityBase.cs" />
     <Compile Include="Leave.cs" />
     <Compile Include="LeaveType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

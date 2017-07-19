@@ -8,8 +8,8 @@ namespace Domain
 {
     public class Leave : Benefit
     {
-        public LeaveType Type { get; set; }
-        public int AvailableEntitlement { get; set; }
-        public int RemainingEntitlement { get; set; }
+        public virtual LeaveType Type { get; set; }
+        public virtual int AvailableEntitlement { get; set; }
+        public virtual int RemainingEntitlement { get; set; }
     }
 }

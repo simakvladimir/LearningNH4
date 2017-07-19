@@ -8,9 +8,9 @@ namespace Domain
 {
     public class SeasonTicketLoan : Benefit
     {
-        public int Amount { get; set; }
-        public double MonthlyInstalment { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
+        public virtual int Amount { get; set; }
+        public virtual double MonthlyInstalment { get; set; }
+        public virtual DateTime StartDate { get; set; }
+        public virtual DateTime EndDate { get; set; }
     }
 }
