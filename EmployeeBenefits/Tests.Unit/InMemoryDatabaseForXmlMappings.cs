@@ -19,7 +19,7 @@ namespace Tests.Unit
                 .SetProperty(Environment.Dialect, typeof(SQLiteDialect).AssemblyQualifiedName)
                 .SetProperty(Environment.ConnectionDriver, typeof(SQLite20Driver).AssemblyQualifiedName)
                 .SetProperty(Environment.ConnectionString, "datasource=:memory:")
-                .AddFile("Mappings/Xml/Employee.hbm.xml");
+                .AddFile("Persistence/Mappings/Xml/Employee.hbm.xml");
 
             sessionFactory = config.BuildSessionFactory();
             Session = sessionFactory.OpenSession();

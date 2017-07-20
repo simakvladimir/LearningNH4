@@ -3,7 +3,7 @@ using Domain;
 using NHibernate;
 using NUnit.Framework;
 
-namespace Tests.Unit.Mappings.Xml
+namespace Tests.Unit.Mappings
 {
     [TestFixture]
     public class EmployeeMappingsTests

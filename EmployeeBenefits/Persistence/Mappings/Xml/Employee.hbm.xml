@@ -2,7 +2,7 @@
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Domain" namespace="Domain">
   <class name="Employee">
     <id name="Id" generator="hilo"/>
-    <property name="EmpoyeeNumber"/>
+    <property name="EmployeeNumber"/>
     <property name="Firstname"/>
     <property name="Lastname"/>
     <property name="EmailAddress"/>
